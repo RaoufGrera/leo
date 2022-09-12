@@ -20,6 +20,6 @@ jobs:
         port: 22
         script: |
           cd /var/www/leo
-          git pull leo master
+          git pull leo main
           npx next build
           pm2 restart 1
