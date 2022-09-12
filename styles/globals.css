@@ -482,10 +482,10 @@ img.programming-language {
 }
 
 .img-rusme {
-  width: 70px;
-  height: 70px;
+  width: 70px !important;
+  height: 70px !important;
   border-radius: 37px;
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
 .pro-img {

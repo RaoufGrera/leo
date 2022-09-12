@@ -6,7 +6,7 @@ export default function Creative() {
         <>
             <div className="container">
                 <h3 className="hero-title fw-regular front-hero-title">
-                    We are a
+                    We are
                     <span id="gif" className="mask-design has-gif">
                         <span className="txt"> Creative</span>
                         <span className="pos-absolute" >
@@ -14,7 +14,7 @@ export default function Creative() {
                     <span id="gif" className="mask-design has-gif">
                         <span className="txt"> Smart</span>
                         <span className="pos-absolute" >
-                            <img className="hero-gif" src="smart2.jpg" /></span></span> and enginners from
+                            <img className="hero-gif" src="smart2.jpg" /></span></span> Enginners from
                     <span id="gif" className="mask-design has-gif">
                         <span className="txt"> Libya.</span>
                         <span className="pos-absolute" >
