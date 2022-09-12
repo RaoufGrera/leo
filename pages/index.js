@@ -216,7 +216,7 @@ export default function Home() {
             </div>
 
             <div className='card-lang'>
-              <img className='programming-language' src="/postgresql.svg" alt="" width={60} height={60} />
+              <Image className='programming-language' src="/postgresql.svg" alt="" width={60} height={60} />
               <span>PostgreSQL</span>
             </div>
 
@@ -227,12 +227,12 @@ export default function Home() {
 
 
         <div className='container-fuild pt-6 pb-5 bg-light'>
-          <div className='container  '>
+          <div className='container'>
             <div className='row'>
               <div className='col-lg-4'>
                 <article className=' card-resume p-4 pt-3'>
                   <div className='flex-row d-flex pb-2 border-bottom border-1'>
-                    <img className="img-rusme" src='./raouf.jpg' />
+                    <Image className="img-rusme" src='/raouf.jpg' width={65} height={65} />
                     <div className='flex-column d-flex'>
                       <strong className="fs-4">Raouf H Grera</strong>
                       <div className='flex-row  d-flex gap-1'>
