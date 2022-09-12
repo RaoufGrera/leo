@@ -300,7 +300,7 @@ main {
 }
 
 .text-desc {
-  font-family: "Slabo 13px";
+  /* font-family: "Slabo 13px";*/
   line-height: 1.76667rem;
   width: 99%;
 }
