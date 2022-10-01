@@ -121,9 +121,7 @@ main {
 
 
 .home-slide .home-slide-quote {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.25;
   padding-top: 48px;
   margin-bottom: 24px;
@@ -263,7 +261,6 @@ main {
 .leodiv {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .leodiv img {
@@ -300,9 +297,28 @@ main {
 }
 
 .text-desc {
-  /* font-family: "Slabo 13px";*/
-  line-height: 1.76667rem;
-  width: 99%;
+  line-height: 1.8;
+  font-size: 1.4rem;
+}
+
+.fs-h2 {
+  font-size: 2rem;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.mask-creative:hover {
+  z-index: 4;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mask-smart:hover {
+  z-index: 4;
 }
 
 .bg-leo {
@@ -319,29 +335,34 @@ main {
 
 .mid {
   background-color: #fff377;
-  margin-top: 9rem;
-  padding: 20px;
+
 }
 
-
-
-.has-gif {
-  transition-delay: .1s;
-  transform: scale(1);
-  position: relative;
+.m-7 {
+  margin-top: 10rem;
+  margin-bottom: 8rem;
 }
 
-.mask-design .txt {
+.has-gif {}
+
+.mask-creative .txt {
   background-image: url(https://mobiteam.de/wp-content/themes/mobiteam/assets/dist/77449c82ebd2c4442f5909cba6398ea6.jpg);
 }
 
+.mask-smart .txt {
+  background-image: url(https://mobiteam.de/wp-content/themes/mobiteam/assets/dist/a5085c4fc02cf803aeabb238661524c3.jpg);
+}
+
+.mask-libya .txt {
+  background-image: url(https://mobiteam.de/wp-content/themes/mobiteam/assets/dist/5ef7da3cb6acbb9d19a242ead3aa7900.jpg);
+
+}
 
 
 .pos-absolute {
   position: absolute;
   right: 0;
-  left: 0;
-  transform: translate(-115px, 54px);
+  transform: translate(15px, 54px);
   pointer-events: none;
 }
 
@@ -353,15 +374,15 @@ main {
   z-index: 2;
 }
 
-.mask-design::after,
-.mask.mask-development::after,
-.mask.mask-consulting::after {
+.mask-creative::after,
+.mask-libya::after,
+.mask-smart::after {
   content: "";
   transition: opacity .3s ease;
   position: absolute;
   display: block;
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000000;
+  border-bottom: 1px solid #7d7d7d;
+  border-top: 1px solid #7d7d7d;
   width: 100%;
   height: 4px;
   top: 97%;
@@ -440,6 +461,7 @@ img.programming-language {
 .black-text {
   background-color: black;
   color: white;
+  display: inline-block;
   padding: 0 10px 5px;
   border-radius: 5px;
   font-style: italic;
@@ -485,7 +507,6 @@ img.programming-language {
   width: 70px !important;
   height: 70px !important;
   border-radius: 37px;
-  margin-right: 10px !important;
 }
 
 .pro-img {
@@ -685,4 +706,21 @@ img.programming-language {
   top: 64px;
   background-color: #fff;
   border: 1px solid #eee;
+}
+
+.header-section {
+  padding: 52px 12px 106px 12px;
+  text-align: center;
+  background: linear-gradient(225deg, #ffe842 20%, #ffffff 0%);
+  margin-bottom: 180px;
+  /* border-bottom: 1px solid #ebebeb; */
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+}
+
+.fs-h1 {
+  font-size: 2.5rem;
+}
+
+.creative-text {
+  font-size: 3rem;
 }
