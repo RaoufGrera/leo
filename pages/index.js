@@ -43,7 +43,7 @@ export default function Home() {
           <div className='row'>
             <div className='col header-section'>
               <div className="leodiv  mb-5"><img src="leo.png" /></div>
-              <h1 className='black-text mb-5 fs-h1'>Software Team</h1>
+              <h1 className='black-text mb-5 fs-h1'>Programming Team</h1>
               <Creative />
             </div>
 
