@@ -7,12 +7,15 @@ import "swiper/css";
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
 import { ModalContext } from "./_app";
+import Head from "next/head";
 const Project = () => {
     const modal = useContext(ModalContext);
 
     return (
         <>
-
+            <Head>
+                <title>LeoCodes | Programming Team | Projects</title>
+            </Head>
 
             <div className='container-fuild pro-img'>
 
@@ -23,13 +26,12 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className='container-fuild bg-light'>
-                <div className='container p-4'>
-                    <div className='row'>
-                        <div className='col-lg-6'>
+            <div className='container-fuild'>
+                <div className='container mt-5 p-4'>
+                    <div className='row mb-4'>
+                        <div className='col-lg-6 mb-4'>
 
                             <h2>Libya CV</h2>
-                            <button onClick={() => modal()} className='btn btn-warning'>contact us</button>
 
                             <p>                    Libya CV is the leading job site in Libya, connecting job seekers with employers looking to hire.
                             </p>
@@ -60,6 +62,12 @@ const Project = () => {
                                 <span>FCM</span>
                                 <span>Java</span>
 
+                            </div>
+                            <br></br>
+                            <strong>Links</strong>
+                            <div className="d-flex gap-2 mt-1 mb-4">
+                                <a className="link2" href="https://libyacv.com">Libyacv.com</a>
+                                <a className="link2" href="https://play.google.com/store/apps/details?id=libyacvpro.libya_cv">Google Play</a>
                             </div>
                         </div>
                         <div className='col-lg-6 project-slide'>
@@ -92,8 +100,8 @@ const Project = () => {
 
                         </div>
                     </div>
-                    <div className='row pt-4 mt-5  border-top border-1 '>
-                        <div className='col-lg-6 mb-4'>
+                    <div className='row pt-5 mt-6 mb-5 border-top border-1 '>
+                        <div className='col-lg-6 mb-5'>
                             <h2>My Letter</h2>
                             <p>A messaging and social media app similar to Slowly</p>
                             <div className='pb-3'>
@@ -121,6 +129,12 @@ const Project = () => {
                                 <span>Reverse proxy</span>
                                 <span>FCM</span>
 
+                            </div>
+
+                            <br></br>
+                            <strong>Links</strong>
+                            <div className="d-flex gap-2 mt-1 mb-4">
+                                <a className="link2" href="https://myletter.app">MyLetter.app</a>
                             </div>
                         </div>
                         <div className='col-lg-6  project-slide'>

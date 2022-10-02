@@ -34,7 +34,9 @@ export default function Home() {
   const modal = useContext(ModalContext);
   return (
     <>
-
+      <Head>
+        <title>LeoCodes | Programming Team</title>
+      </Head>
 
       <div className='home-header'>
 
@@ -105,7 +107,7 @@ export default function Home() {
                 <p className='text-desc'>Leaving user experience to chance can hurt your business. Issues like these can be addressed through UX design practices
 
                 </p>
-                <button onClick={() => modal()} className='btn  btn-warning'>CONTACT US</button>
+                <button onClick={() => modal()} className='btn  btn-warning'>Contact us</button>
               </div>
             </div>
           </div>
@@ -225,10 +227,14 @@ export default function Home() {
         </div>
 
 
-        <div className='container-fluid pt-6 pb-5 bg-light'>
+        <div className='container-fluid   pt-6 pb-6 bg-light'>
           <div className='container'>
-            <div className='row'>
-              <div className='col-lg-4'>
+            <div className='text-center'>
+              <h2 className='black-text  fs-h2 mb-5'>Our Team...</h2>
+            </div>
+            <div className='row mt-4'>
+
+              <div className='col-lg-4 mb-4'>
                 <article className=' card-resume p-4 pt-3'>
                   <div className='flex-row gap-2 d-flex pb-2 border-bottom border-1'>
                     <Image className="img-rusme" src='/raouf.jpg' layout="fixed" width={65} height={65} />
@@ -243,15 +249,14 @@ export default function Home() {
                   <div className="flex-column gap-2 border-bottom border-1 d-flex pt-2">
                     <strong>Summary</strong>
                     <p className='text-desc fs-6'>
-                      Full-Stack Developer with 7 years experience in the field of software development.
-                      worked with .Net Web API and Next.js .
-                      built many web and mobile apps from scratch.
+                      Full-Stack Developer with 7 years experience. developed postal addressing application for Libya Post. Participated in the development of the SDI project.
+                      graduated with second-class honors +75%. built many web and mobile apps from scratch.
                     </p>
                   </div>
                   <div className='d-flex flex-row gap-1 tag-lang flex-wrap pt-3'>
                     <span>C#</span>
                     <span>.NET</span>
-                    <span className='tag-lang rust'>Rust</span>
+
                     <span>JS</span>
                     <span>Next.js</span>
                     <span>React.js</span>
@@ -275,36 +280,26 @@ export default function Home() {
                     <div className='flex-column d-flex'>
                       <strong className="fs-4">Fawzi A.</strong>
                       <div className='flex-row  d-flex gap-1'>
-                        <span>Full-stack developer </span>
+                        <span>Systems Analyst</span>
                       </div>
                     </div>
                   </div>
                   <div className="flex-column gap-2 border-bottom border-1 d-flex pt-2">
                     <strong>Summary</strong>
                     <p className='text-desc fs-6'>
-                      Full-Stack Developer with 7 years experience in the field of software development.
-                      worked with .Net Web API and Next.js .
-                      built many web and mobile apps from scratch.
+
+                      He has more than 15 years of experience in the field of application analysis and development, he has experience in database development and design, he holds a master's degree in the field of information technology.
                     </p>
                   </div>
                   <div className='d-flex flex-row gap-1 tag-lang flex-wrap pt-3'>
                     <span>C#</span>
                     <span>.NET</span>
-                    <span className='tag-lang rust'>Rust</span>
-                    <span>JS</span>
-                    <span>Next.js</span>
-                    <span>React.js</span>
-                    <span>Flutter</span>
-
-                    <span>Laravel</span>
-                    <span>GeoServer</span>
+                    <span>Database designer</span>
+                    <span>PostGIS</span>
                     <span>PostgreSQL</span>
-                    <span>Redis</span>
-
-                    <span>Docker</span>
-
-
-
+                    <span>Linux</span>
+                    <span>UI/UX</span>
+                    <span>Systems Analyst</span>
                   </div>
                 </article>
               </div>
@@ -317,3 +312,4 @@ export default function Home() {
   )
 }
 
+// <span className='tag-lang rust'>Rust</span>

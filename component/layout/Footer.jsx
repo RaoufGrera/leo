@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer className='footer'>
-                <div>Facebook | RaoufGrera</div>
+                <div>+218927223001 | info@leocodes.com</div>
 
             </footer>
         </>
