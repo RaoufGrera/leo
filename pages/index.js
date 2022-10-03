@@ -237,7 +237,6 @@ export default function Home() {
               <div className='col-lg-4 mb-4'>
                 <article className=' card-resume p-4 pt-3'>
                   <div className='flex-row gap-2 d-flex pb-2 border-bottom border-1'>
-                    <Image className="img-rusme" src='/raouf.jpg' layout="fixed" width={65} height={65} />
                     <div className='flex-column d-flex'>
                       <strong className="fs-4">Raouf Grera</strong>
                       <div className='flex-row  d-flex gap-1'>
@@ -312,4 +311,4 @@ export default function Home() {
   )
 }
 
-// <span className='tag-lang rust'>Rust</span>
+// <span className='tag-lang rust'>Rust</span>ظظ                    <Image className="img-rusme" src='/raouf.jpg' layout="fixed" width={65} height={65} />
