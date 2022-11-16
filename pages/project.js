@@ -174,6 +174,74 @@ const Project = () => {
                         </div>
 
                     </div>
+
+                    <div className='row pt-5 mt-6 mb-5 border-top border-1 '>
+                        <div className='col-lg-6 mb-5'>
+                            <h2>أَلاَ بِذِكْــرِ اللَّه تَطْمَئِــنُّ القُـلُوب</h2>
+                            <p>برنامج ديني وظيفته الأساسية تذكير الانسان بذكر الله سبحانه وتعالى , كما يحتوي على الأذكار اليومية التي تعد حصن له في يومه</p>
+                            <div className='pb-3'>
+
+                                <li>Used c# with Bunifu_UI to build windows application</li>
+                                <li>Used Excle Library as database.</li>
+                                <li>Used Java language to android application.</li>
+                                <li>Used sqlite as database for android application.</li>
+
+                            </div>
+                            <strong>Skills</strong>
+                            <div className='d-flex pt-3 flex-wrap gap-1 flex-row tag-lang'>
+
+                                <span>Java</span>
+                                <span>Sqlite</span>
+                                <span>C#</span>
+                                <span>Bunifu_UI</span>
+                                <span>Visual studio</span>
+                                <span>Windows application</span>
+                                <span>Database designer</span>
+
+                            </div>
+
+                            <br></br>
+                            <strong>Links</strong>
+                            <div className="d-flex gap-2 mt-1 mb-4">
+                                <a className="link2" href="https://www.facebook.com/Athkar.ay">Facebook</a>
+                                <a className="link2" href="https://play.google.com/store/apps/details?id=com.uosay.alarmmanager">Google Play</a>
+
+                            </div>
+                            <br></br>
+                            <strong>by</strong><i>Emey U</i>
+                        </div>
+                        <div className='col-lg-6  project-slide'>
+                            <Swiper
+                                loop={true}
+                                spaceBetween={90}
+                                autoplay={{
+                                    delay: 3500,
+
+                                }}
+                                pagination={{
+                                    clickable: true,
+                                }}
+
+                                modules={[Autoplay, Pagination]}
+
+                            >
+                                <div className='title-project'><strong>أَلاَ بِذِكْــرِ اللَّه تَطْمَئِــنُّ القُـلُوب</strong></div>
+
+                                <SwiperSlide>
+                                    <img className='slide-img' src='./project/adk0.png' />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className='slide-img' src='./project/adk1.png' />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className='slide-img' src='./project/adk2.png' />
+                                </SwiperSlide>
+
+                            </Swiper>
+
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
