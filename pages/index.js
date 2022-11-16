@@ -293,17 +293,12 @@ export default function Home() {
                     <span>C#</span>
                     <span>.NET</span>
 
-                    <span>JS</span>
-                    <span>Next.js</span>
-                    <span>React.js</span>
-                    <span>Flutter</span>
-
-                    <span>Laravel</span>
-                    <span>GeoServer</span>
-                    <span>PostgreSQL</span>
-                    <span>Redis</span>
-
-                    <span>Docker</span>
+                    <span>Java</span>
+                    <span>Sqlite</span>
+                    <span>Bunifu_UI</span>
+                    <span>Visual studio</span>
+                    <span>Windows application</span>
+                    <span>Database designer</span>
 
 
 
